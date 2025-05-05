@@ -230,7 +230,7 @@ public class AddNewBusinessSpdaIT extends BaseLoginTest {
 
 	}
 
-*/
+
 
 	@Test
 	public void addNewBusiness() throws Exception {
@@ -345,7 +345,7 @@ public class AddNewBusinessSpdaIT extends BaseLoginTest {
 
 
 	}
-/*
+*/
 	@Test
 	public void addNewBusinessMaster() throws Exception {
 		VaadinSelectView getSelectButton = $( VaadinSelectView.class ).first();
@@ -451,6 +451,6 @@ public class AddNewBusinessSpdaIT extends BaseLoginTest {
 
 	}
 
-*/
+
 
 }
