@@ -82,7 +82,7 @@ public class WholeLifeIT extends BaseLoginTest{
         getPolicy.searchButton().click();
         getPolicy.family().getCell( "69432987" ).click();
         NaviMenuView transaction = $( NaviMenuView.class ).first();
-        transaction.transactionsLoan().click();
+        transaction.transactions().click();
         ScenarioView loanTransaction = $(ScenarioView.class).first();
         loanTransaction.addTransactionButton().click();
         //		EntryDialogContent selectTransaction = $(EntryDialogContent.class).first();
@@ -93,7 +93,7 @@ public class WholeLifeIT extends BaseLoginTest{
         addRider.addInsured().click();
 
         EntryDialogContent addInsured = $(EntryDialogContent.class).last();
-        addInsured.partyGUID().selectItemByIndex(3);
+        addInsured.partyGUID().selectItemByIndex(0);
         addInsured.okButton().click();
          TransactionPopUpPageView notes = $(TransactionPopUpPageView.class).first();
         notes.note().sendKeys( "123" );

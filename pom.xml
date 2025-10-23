@@ -6,16 +6,22 @@
     <name>Navy Mutual Project</name>
     <version>1.0-SNAPSHOT</version>
     <reporting>
+        <outputDirectory>${project.build.directory}/site</outputDirectory>
         <plugins>
-            <!-- Surefire Report Plugin for HTML Reports -->
+            <!-- Generates the standard project site reports (safe with Maven 3.5.2) -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+                <version>3.1.2</version>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-report-plugin</artifactId>
-                <version>3.5.2</version>
+                <version>3.0.0-M7</version>
                 <reportSets>
                     <reportSet>
                         <reports>
-                            <report>report</report>
+                            <report>report-only</report>
                         </reports>
                     </reportSet>
                 </reportSets>
@@ -34,6 +40,10 @@
 
     <repositories>
         <repository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+        <repository>
             <id>Vaadin Directory</id>
             <url>https://maven.vaadin.com/vaadin-addons</url>
         </repository>
@@ -43,6 +53,11 @@
         </repository>
     </repositories>
     <pluginRepositories>
+        <pluginRepository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </pluginRepository>
+
         <pluginRepository>
             <id>vaadin-prereleases</id>
             <url>https://maven.vaadin.com/vaadin-prereleases</url>
@@ -207,21 +222,46 @@
 
     </dependencies>
     <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <version>3.0.2</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
         <plugins>
             <!-- Site Plugin Configuration -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-site-plugin</artifactId>
-                <version>3.21.0</version>
-
-
+                <version>3.7.1</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-report-plugin</artifactId>
+                <version>3.0.0-M7</version>
+                <executions>
+                    <execution>
+                        <phase>site</phase>
+                        <goals>
+                            <goal>report-only</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+                <version>3.1.2</version>
             </plugin>
 
             <!-- Surefire Plugin Configuration -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.5.2</version>
+                <version>3.0.0-M7</version>
                 <configuration>
                     <includes>
                         <include>**/AddNewBusinessSpiaIT.java</include>
@@ -231,10 +271,8 @@
                         <include>**/BaseLoginTest.java</include>
                         <include>**/AddFamilyIT.java</include>
                         <include>**/WholeLifeIT.java</include>
-                        <include>PolicyBillIT.java</include>
+                        <include>**/PolicyBillIT.java</include>
                     </includes>
-
-
                     <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
                     <redirectTestOutputToFile>true</redirectTestOutputToFile>
                     <printSummary>true</printSummary>
@@ -257,34 +295,7 @@
             </plugin>
 
             <!-- Failsafe Plugin Configuration -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-failsafe-plugin</artifactId>
-                <version>3.1.2</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>integration-test</goal>
-                            <goal>verify</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <includes>
-                        <include>AddNewBusinessSpiaIT.java</include>
-                        <include>AddNewBusinessWholeLifeIT.java</include>
-                        <include>AddNewBusinessFpraIT.java</include>
-                        <include>AddNewBusinessSpdaIT.java</include>
-                        <include>BaseLoginTest.java</include>
-                        <include>AddFamilyIT.java</include>
-                        <include>WholeLifeIT.java</include>
-                        <include>PolicyBillIT.java</include>
-                    </includes>
 
-                    <trimStackTrace>false</trimStackTrace>
-                    <enableAssertions>true</enableAssertions>
-                </configuration>
-            </plugin>
         </plugins>
     </build>
 

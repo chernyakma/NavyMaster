@@ -25,12 +25,12 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 public abstract class BaseLoginTest extends TestBenchTestCase {
 
-/*
+
 		@After
 	public void tearDown() throws Exception {
 			getDriver().quit();
 	}
-*/
+
 	@Before
 	public void setUp() {
 		// Set up the download directory using the current working directory
@@ -61,7 +61,7 @@ public abstract class BaseLoginTest extends TestBenchTestCase {
 	WebDriverManager.chromedriver().setup();
 
 
-//	 options.addArguments("--headless", "--disable-gpu");
+	 options.addArguments("--headless", "--disable-gpu");
 	 setDriver(new ChromeDriver(options));
 	performLogin();
 

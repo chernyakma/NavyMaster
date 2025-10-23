@@ -335,7 +335,8 @@ public class AddNewBusinessFpraIT extends BaseLoginTest {
 		VaadinSelectView getSelectButton = $(VaadinSelectView.class).first();
 		getSelectButton.getSelectItem().selectItemByIndex(5);
 		SearchComponentView getFamily = $(SearchComponentView.class).first();
-		getFamily.searchByName().sendKeys("Palmer");
+		getFamily.searchBySSN().sendKeys("521927947");
+//		getFamily.searchByName().sendKeys("Palmer");
 		getFamily.searchButton().click();
 		getFamily.family().getCell("Palmer").click();
 		NaviMenuView newBusiness = $(NaviMenuView.class).first();
@@ -347,7 +348,7 @@ public class AddNewBusinessFpraIT extends BaseLoginTest {
 		addNewBusiness.getOkButton().click();
 		IllustrationView illustration = $(IllustrationView.class).first();
 		illustration.getAgentNumber().openPopup();
-		illustration.getAgentNumber().sendKeys("AGENT007");
+		illustration.getAgentNumber().sendKeys("NM001");
 		Thread.sleep(3_000);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].dispatchEvent(new KeyboardEvent('keydown', {'key': 'ArrowDown'}));", illustration.getAgentNumber());
@@ -376,15 +377,24 @@ public class AddNewBusinessFpraIT extends BaseLoginTest {
 		addNote.expiresDate().setDate(LocalDate.of(2024, 12, 12));
 		addNote.attachButton().click();
 		addNote.attachmentType().selectByText("Annuity Owner Questionnaire");
-		addNote.uploadFileButton().upload(new File("C:\\Users\\MariiaCherniak\\Downloads\\Annuity Questionnare.pdf"));
+		String filePath = System.getenv("UPLOAD_FILE_PATH");
+		File fileToUpload = new File(filePath).getAbsoluteFile();
+		addNote.uploadFileButton().upload(fileToUpload);
+
 		Thread.sleep(5_000);
 		addNote.attachButton().click();
 		addNote.attachmentType().selectByText("Final Application");
-		addNote.uploadFileButton().upload(new File("C:\\Users\\MariiaCherniak\\Downloads\\Final Application.pdf"));
+		String filePathApp = System.getenv("UPLOAD_FILE_PATH_App");
+		File fileToUploadApp = new File(filePathApp).getAbsoluteFile();;
+		addNote.uploadFileButton().upload(fileToUploadApp);
+
 		Thread.sleep(5_000);
 		addNote.attachButton().click();
 		addNote.attachmentType().selectByText("Sales Representative Disclosure");
-		addNote.uploadFileButton().upload(new File("C:\\Users\\MariiaCherniak\\Downloads\\Sales Representative.pdf"));
+		String filePathS = System.getenv("UPLOAD_FILE_PATH_SALES");
+		File fileToUploadS = new File(filePathS).getAbsoluteFile();
+		addNote.uploadFileButton().upload(fileToUploadS);
+
 		addNote.okButton().click();
 		addNote.closeButton().click();
 		NaviMenuView addSuspense = $(NaviMenuView.class).first();
