@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.vaadin.testbenchexample.AddNewBusinessFpraIT
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 25.845 s <<< FAILURE! - in com.vaadin.testbenchexample.AddNewBusinessFpraIT
-com.vaadin.testbenchexample.AddNewBusinessFpraIT.addNewBusinessMaster  Time elapsed: 25.844 s  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 26.031 s <<< FAILURE! - in com.vaadin.testbenchexample.AddNewBusinessFpraIT
+com.vaadin.testbenchexample.AddNewBusinessFpraIT.addNewBusinessMaster  Time elapsed: 26.03 s  <<< ERROR!
 org.openqa.selenium.NoSuchElementException: 
 No element with tag <application-view> found using index 0
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
@@ -21,6 +21,7 @@ Driver info: driver.version: unknown
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)

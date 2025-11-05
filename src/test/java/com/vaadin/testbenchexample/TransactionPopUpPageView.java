@@ -15,7 +15,7 @@ import com.vaadin.testbench.elementsbase.Element;
         {return $( SelectElement.class ).id( "typeSelect" );}
 
         protected DatePickerElement effectiveDate(){
-            return $(DatePickerElement.class).first();
+            return $(DatePickerElement.class).id("effectiveDate");
         }
         protected TextAreaElement note(){
             return $(TextAreaElement.class).first();

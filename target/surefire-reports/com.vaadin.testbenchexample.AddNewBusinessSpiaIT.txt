@@ -1,18 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: com.vaadin.testbenchexample.AddNewBusinessSpiaIT
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 24.918 s <<< FAILURE! - in com.vaadin.testbenchexample.AddNewBusinessSpiaIT
-com.vaadin.testbenchexample.AddNewBusinessSpiaIT.addNewBusinessMaster  Time elapsed: 24.916 s  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 24.381 s <<< FAILURE! - in com.vaadin.testbenchexample.AddNewBusinessSpiaIT
+com.vaadin.testbenchexample.AddNewBusinessSpiaIT.addNewBusinessMaster  Time elapsed: 24.38 s  <<< ERROR!
 org.openqa.selenium.StaleElementReferenceException: 
 stale element reference: stale element not found in the current frame
-  (Session info: chrome=141.0.7390.108)
+  (Session info: chrome=141.0.7390.123)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: '4.18.0', revision: 'b6bf9de7cc*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d5dfab485ccad5d7cb10e453edf2842f, executeScript {script=var result = [];if (arguments[0].shadowRoot) {  var shadow = arguments[0].shadowRoot.querySelectorAll(arguments[1]+arguments[2]);  result = result.concat(Array.prototype.slice.call(shadow));}var light = arguments[0].querySelectorAll(arguments[1]+arguments[2]);result = result.concat(Array.prototype.slice.call(light));return result[0], args=[{element-6066-11e4-a52e-4f735466cecf=f.EED9CFF5BE6BA8204F5F819A18F50D4D.d.00A86F27B74E8C918C64911CDEA135D8.e.16960}, *, [id='viewContent']]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\MARIIA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55516}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55516/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d5dfab485ccad5d7cb10e453edf2842f
+Command: [fd9b5e3c8654bcd6713b42b1da876cfd, executeScript {script=var result = [];if (arguments[0].shadowRoot) {  var shadow = arguments[0].shadowRoot.querySelectorAll(arguments[1]+arguments[2]);  result = result.concat(Array.prototype.slice.call(shadow));}var light = arguments[0].querySelectorAll(arguments[1]+arguments[2]);result = result.concat(Array.prototype.slice.call(light));return result[0], args=[{element-6066-11e4-a52e-4f735466cecf=f.66963372AFE999E80F4B936ED3670CB3.d.8EDDB2A7156D83382C53EC314B3E6E8F.e.359}, *, [id='viewContent']]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\MARIIA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58052}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58052/devtoo..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fd9b5e3c8654bcd6713b42b1da876cfd
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -27,25 +27,25 @@ Session ID: d5dfab485ccad5d7cb10e453edf2842f
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
 	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:464)
 	at com.vaadin.testbench.TestBenchDriverProxy.executeScript(TestBenchDriverProxy.java:185)
-	at com.vaadin.testbench.TestBenchDriverProxy_$$_jvst74b_0._d9executeScript(TestBenchDriverProxy_$$_jvst74b_0.java)
+	at com.vaadin.testbench.TestBenchDriverProxy_$$_jvst8d3_0._d9executeScript(TestBenchDriverProxy_$$_jvst8d3_0.java)
 	at jdk.internal.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at com.vaadin.testbench.DriverInvocationHandler.invoke(DriverInvocationHandler.java:47)
-	at com.vaadin.testbench.TestBenchDriverProxy_$$_jvst74b_0.executeScript(TestBenchDriverProxy_$$_jvst74b_0.java)
+	at com.vaadin.testbench.TestBenchDriverProxy_$$_jvst8d3_0.executeScript(TestBenchDriverProxy_$$_jvst8d3_0.java)
 	at com.vaadin.testbench.ElementQuery.executeSearchScript(ElementQuery.java:502)
 	at com.vaadin.testbench.ElementQuery.executeSearch(ElementQuery.java:413)
 	at com.vaadin.testbench.ElementQuery.get(ElementQuery.java:322)
 	at com.vaadin.testbench.ElementQuery.first(ElementQuery.java:244)
 	at com.vaadin.testbench.ElementQuery.id(ElementQuery.java:151)
 	at com.vaadin.testbenchexample.IllustrationView.paymentStartDate(IllustrationView.java:78)
-	at com.vaadin.testbenchexample.IllustrationView_$$_jvst74b_17._d73paymentStartDate(IllustrationView_$$_jvst74b_17.java)
+	at com.vaadin.testbenchexample.IllustrationView_$$_jvst8d3_17._d73paymentStartDate(IllustrationView_$$_jvst8d3_17.java)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at com.vaadin.testbench.TestBench$ElementInvocationHandler.invoke(TestBench.java:83)
-	at com.vaadin.testbenchexample.IllustrationView_$$_jvst74b_17.paymentStartDate(IllustrationView_$$_jvst74b_17.java)
+	at com.vaadin.testbenchexample.IllustrationView_$$_jvst8d3_17.paymentStartDate(IllustrationView_$$_jvst8d3_17.java)
 	at com.vaadin.testbenchexample.AddNewBusinessSpiaIT.addNewBusinessMaster(AddNewBusinessSpiaIT.java:383)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -56,6 +56,7 @@ Session ID: d5dfab485ccad5d7cb10e453edf2842f
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
