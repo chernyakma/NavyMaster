@@ -18,6 +18,7 @@ com\vaadin\testbenchexample\NewIllustrationView.class
 com\vaadin\testbenchexample\IllustrationView.class
 com\vaadin\testbenchexample\AddNewBusinessFpraIT.class
 com\vaadin\testbenchexample\EntryDialogContent.class
+com\vaadin\testbenchexample\ClaimsIT.class
 com\vaadin\testbenchexample\VaadinConfirmDialogView.class
 com\vaadin\testbenchexample\VaadinDevToolsView.class
 com\vaadin\testbenchexample\SearchComponentView.class

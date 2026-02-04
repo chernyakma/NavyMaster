@@ -335,7 +335,7 @@ public class AddNewBusinessFpraIT extends BaseLoginTest {
 		VaadinSelectView getSelectButton = $(VaadinSelectView.class).first();
 		getSelectButton.getSelectItem().selectItemByIndex(5);
 		SearchComponentView getFamily = $(SearchComponentView.class).first();
-		getFamily.searchBySSN().sendKeys("521927947");
+		getFamily.searchBySSN().sendKeys("521927948");
 //		getFamily.searchByName().sendKeys("Palmer");
 		getFamily.searchButton().click();
 		getFamily.family().getCell("Palmer").click();

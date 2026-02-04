@@ -190,7 +190,7 @@
         </dependency>
 
         <!-- JUnit Jupiter (JUnit 5) dependency -->
-        
+
         <dependency>
             <groupId>com.vaadin</groupId>
             <artifactId>vaadin-testbench-core</artifactId>
@@ -267,6 +267,7 @@
                         <include>**/AddFamilyIT.java</include>
                         <include>**/WholeLifeIT.java</include>
                         <include>**/PolicyBillIT.java</include>
+                        <include>**/ClaimsIT.java</include>
                     </includes>
                     <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
                     <redirectTestOutputToFile>true</redirectTestOutputToFile>
