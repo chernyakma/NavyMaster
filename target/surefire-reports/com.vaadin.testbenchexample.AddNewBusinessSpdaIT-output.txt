@@ -1,869 +1,869 @@
 Download directory already exists: C:\Users\MariiaCherniak\Documents\GitHub\NavyMaster\downloadFiles
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.109 (resolved driver for Chrome 144)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MariiaCherniak\.cache\selenium\chromedriver\win64\144.0.7559.109\chromedriver.exe
-Jan 29, 2026 10:39:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MariiaCherniak\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+Feb 18, 2026 9:45:05 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Jan 29, 2026 10:39:46 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 144.0.7559.98. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator comparePdfTextIgnoringDates
+Feb 18, 2026 9:45:05 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator comparePdfTextIgnoringDates
 SEVERE: PDFs do not match. Showing differences:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 1:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 29 Carpenter Road,
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: 9903 UVUKRCPOBP
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 2:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Arlington, VA 22204
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: St, Arlington, VA
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 3:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Navy Mutual Aid Association
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: 22204
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 4:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Life Insurance Illustration
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Navy Mutual Aid Association
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 5:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Prepared For: David Palmer
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Annuity Quote
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 6:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Navy Mutual Aid Association
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Prepared For: David Palmer
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 7:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 29 Carpenter Road, Arlington, VA 22204
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Navy Mutual Aid Association
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 8:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Presented By:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: 9903 UVUKRCPOBP St, Arlington, VA 22204
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 9:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Prepared On:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Presented By:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 10:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Prepared On:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 11:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: SPIA (Settlement Options)
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 12:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Owner: David Palmer
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Single Premium Deferred Annuity
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 13:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Annuitant(s): David Palmer Effective Date: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Owner: David Palmer
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 14:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Issue State: Virginia
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Annuitant(s): David Palmer
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 15:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: First Payment Date: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Issue Age/Gender: 65/Male Rate Lock Duration: 7
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 16:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: A New Business Illustration
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Effective Date: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 17:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: SPIA (Settlement Options)
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Issue State: Virginia
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 18:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: PLAN
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: A New Business Illustration
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 19:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: DESCRIPTION
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Single Premium Deferred Annuity
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 20:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1:  An Immediate Annuity starts a guaranteed income stream right away, with
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: PLAN
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 21:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: payments beginning within one year of the contract purchase date. Immediate
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: DESCRIPTION
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 22:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Annuities are funded with a lump-sum deposit and are typically used as a tool to
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Single Premium Deferred Annuity is ideal for those seeking a simple and secure
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 23:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: spread out income taxation or reduce the risk of outliving other assets.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: way to grow their savings with compounding, tax-deferred interest. After a
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 24:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: ANNUITY WITH
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: single lump-sum deposit, you earn tax-deferred interest for a predetermined
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 25:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: FIXED PERIOD
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: lock-in period and the future value of the contract can easily be calculated.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 26:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: GUARANTEED
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Single Premium Deferred Annuities are fixed annuities, meaning you deposit a
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 27:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: PAYMENTS
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: sum of money and receive guaranteed principal and interest payments in the
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 28:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Fixed period guaranteed quarterly payments of $2,229.95 paid for 15 years.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: future.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 29:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: ILLUSTRATION
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: MARKET VALUE
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 30:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: DEFINITIONS:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: ADJUSTMENT
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 31:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Year:The policy year measured from the policy effective date, .
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: (MVA)
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 32:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Guaranteed Interest Rate: Interest rates are based on the size of your premium
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: A Market Value Adjustment is an adjustment that can be positive or negative
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 33:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: deposit and the length of time you will be receiving income payments; if you
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: based on the market rates.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 34:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: choose a life income payout option, this length is determined by your life
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: FLEXIBLE
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 35:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: expectancy. Regardless of your payout option, you won't have to pay taxes on
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: WITHDRAWALS
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 36:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: the principal contribution used to fund your annuity, only on interest earnings.'
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: After the first year, you can make up to four withdrawals equaling up to 10% of
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 37:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Guaranteed Principal Deposit: Fixed period income payments guarantee that
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: your contract's accumulated value without incurring a fee.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 38:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: your principal deposit will not suffer losses and will be repaid to you (or a
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: FREE LOOK
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 39:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: beneficiary) in full.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: PERIOD
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 40:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Free Look Period: You can take up to 30 days to confirm that this annuity is right
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: You can take up to 30 days to confirm that this annuity is right for you.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 41:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: for you.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: ILLUSTRATION
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 42:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Fixed Period: You will receive payments for a period of 1 to 30 years, distributed
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: DEFINITIONS:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 43:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: monthly, quarterly, semi-annually, or annually. These payments will continue to
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Tabular Details of Policy Values:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 44:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: your or a beneficiary if you pass away during the fixed period. Income payments
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Year: The policy year measured from the policy effective date, .
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 45:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: cease after the fixed period is complete.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: End of Year Age: The insured's attained age at the end of each policy year.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 46:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Life Income with No Death Benefit: You will receive monthly payments for the
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Premium: The sum of all total premium deposits for each policy year.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 47:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: remainder of your life. This payment option provides the highest monthly life
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Bonus: A 1% premium bonus is added to any deposit with a 7- or 10-year lock.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 48:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: contingent income amount.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: This premium bonus has the effect of increasing the realized rate of return
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 49:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Life Income with Period Certain: You will receive income for the remainder of
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: over the lock-in period.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 50:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: your life. You may also choose a period certain of 5, 10, 15, or 20 years. If you
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Rate Lock Guarantee: The guaranteed interest rate for the rate lock period of 7
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 51:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: This illustration is not valid
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: years will be 4.45%.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 52:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: without all numbered pages
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Annual Withdrawal(s): The total of illustrated withdrawals taken in the policy
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 53:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1:  of 2Page 1
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: year.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 54:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Prepared on: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Account Value: The account value includes all premiums plus bonus and
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 55:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Owner: David Palmer
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: interest minus any withdrawals or fees at the end of the policy year.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 56:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Annuitant(s): David Palmer Effective Date: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Annual Interest: The interest earned in the policy year based on the
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 57:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Issue State: Virginia
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Guaranteed Rate accounted for premiums added and/or withdrawals taken.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 58:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: First Payment Date: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Cash Surrender Value*: Equals contract accumulation value, minus any
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 59:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: A New Business Illustration
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: premium bonus, plus interest that bonus had earned during the guaranteed
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 60:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: SPIA (Settlement Options)
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: rate lock period elected. Please note, potential impact of the Market Value
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 61:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: pass away during the period certain, your beneficiary will continue to receive
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: This illustration is not valid
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 62:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: income payments for the remainder of the period certain.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: without all numbered pages
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 63:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Joint and survivor Income: You and a joint annuitant will receive income
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2:  of 3Page 1
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 64:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: payments until one of you passes away, after which the surviving annuitant will
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Prepared on: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 65:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: receive 50%, 67%, or 100% of the original income amount for the remainder of
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Owner: David Palmer
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 66:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: their life. The percentage of the original income payment that will be paid to the
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Annuitant(s): David Palmer
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 67:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: surviving annuitant is chosen at the time of purchase and affects the income
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Issue Age/Gender: 65/Male Rate Lock Duration: 7
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 68:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: amount received while both annuitants are living.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Effective Date: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 69:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: This illustration is not valid
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Issue State: Virginia
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 70:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: without all numbered pages
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: A New Business Illustration
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 71:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1:  of 2Page 2
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Single Premium Deferred Annuity
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 72:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Prepared on: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Adjustment (MVA) calculation is not included in this depicted surrender value
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 73:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: as that outcome will depend on the point within rate lock at which an MVA is
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 74:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: triggered and current interest rates offered for a newly issued contract of
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 75:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: similar type.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 76:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Total Death Benefit: Upon death, there will be no bonus recapture or MVA
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 77:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: charge.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 78:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Tabular Detail of Policy Values
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 79:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Year
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 80:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: End of
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 81:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Year
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 82:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Age
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 83:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Premium Bonus
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 84:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Rate Lock
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 85:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Guarantee
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 86:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Annual
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 87:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Withdrawal(s)
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 88:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Account Value Annual Interest
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 89:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Cash Surrender
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 90:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Value*
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 91:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Total Death
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 92:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Benefit
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 93:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: 1 66 $50,000 $500 4.45% $0 $52,747 $2,747 $52,225 $52,747
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 94:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: 2 67 $0 $0 4.45% $0 $55,095 $2,347 $54,549 $55,095
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 95:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: 3 68 $0 $0 4.45% $0 $57,546 $2,452 $56,976 $57,546
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 96:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: 4 69 $0 $0 4.45% $0 $60,107 $2,561 $59,512 $60,107
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 97:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: 5 70 $0 $0 4.45% $0 $62,782 $2,675 $62,160 $62,782
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 98:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: 6 71 $0 $0 4.45% $0 $65,576 $2,794 $64,926 $65,576
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 99:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: 7 72 $0 $0 4.45% $0 $68,494 $2,918 $67,816 $68,494
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 100:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: * Cash Surrender value displays the removal of the Bonus. The MVA is not included.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 101:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: This illustration is not valid
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 102:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: without all numbered pages
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 103:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2:  of 3Page 2
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 104:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Prepared on: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 105:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Owner: David Palmer
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 106:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Annuitant(s): David Palmer
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 107:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Issue Age/Gender: 65/Male Rate Lock Duration: 7
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 108:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Effective Date: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 109:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Issue State: Virginia
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 110:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: A New Business Illustration
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 111:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Single Premium Deferred Annuity
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 112:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Payments
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 113:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: After the lock-in period ends, you can choose to recieve guaranteed income payments in one of four
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 114:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: ways:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 115:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: FIXED PERIOD You will receive payments for a period of one to 30 years, distributed monthly,
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 116:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: quarterly, semi-annually, or annually. These payments will continue to you or a
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 117:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: beneficiary if you pass away during the fixed period. Income payments cease
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 118:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: after the fixed period is complete.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 119:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: LIFE INCOME
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 120:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: WITH NO DEATH
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 121:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: BENEFIT
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 122:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: You will receive monthly payments for the remainder of your life. This payment
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 123:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: provides the highest monthly life contingent income amount.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 124:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: LIFE INCOME
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 125:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: WITH PERIOD
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 126:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: CERTAIN
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 127:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: You will receive income for the remainder of your life. You may also choose a
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 128:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: period certain of 5, 10, 15 or 20 years. If you pass away during the period
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 129:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: certain, your beneficiary will continue to receive income payments for the
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 130:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: remainder of the period certain.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 131:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: JOINT AND
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 132:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: SURVIVOR
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 133:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: INCOME
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 134:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: You and a joint annuitant will receive income payments until one of you pass
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 135:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: away, after which the surviving annuitant will receive 50%, 67%, or 100% of the
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 136:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: original income amount for the remainder of their life. The percentage of the
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 137:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: original income payment that will be paid to the surviving annuitant is chosen at
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 138:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: the time of purchase and affects the income amount received while both
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 139:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: annuitants are living.
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 140:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: This illustration is not valid
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 141:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: without all numbered pages
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 142:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2:  of 3Page 3
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 143:
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: 
-Jan 29, 2026 10:40:17 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Feb 18, 2026 9:45:40 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Prepared on: 
 Test failed: PDFs do not match!
 Test failed. File not deleted.
