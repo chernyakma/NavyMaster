@@ -84,7 +84,7 @@ public class WholeLifeIT extends BaseLoginTest{
         NaviMenuView transaction = $( NaviMenuView.class ).first();
         transaction.transactions().click();
         ScenarioView loanTransaction = $(ScenarioView.class).first();
-        loanTransaction.addTransactionButton().click();
+        loanTransaction.addTransactionButton2().click();
         //		EntryDialogContent selectTransaction = $(EntryDialogContent.class).first();
         TransactionPopUpPageView selectTransaction = $(TransactionPopUpPageView.class).first();
         selectTransaction.transactionType().selectByText( "Add Rider" );

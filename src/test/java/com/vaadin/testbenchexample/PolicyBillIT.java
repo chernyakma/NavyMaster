@@ -86,7 +86,7 @@ public class PolicyBillIT extends BaseLoginTest{
         ScenarioView premiumTransaction = $(ScenarioView.class).first();
         String originalDateText = premiumTransaction.policyPaidToDate().getText();
         initialPaidToDate = LocalDate.parse(originalDateText, formatter);
-        premiumTransaction.addTransactionButton().click();
+        premiumTransaction.addTransactionButton2().click();
         TransactionPopUpPageView selectTransaction = $(TransactionPopUpPageView.class).first();
         selectTransaction.transactionType().selectByText("Premium");
         EntryDialogContent premium = $(EntryDialogContent.class).first();
