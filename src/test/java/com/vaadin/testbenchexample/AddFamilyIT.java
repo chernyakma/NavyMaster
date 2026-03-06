@@ -319,7 +319,7 @@ public class AddFamilyIT extends BaseLoginTest {
 		NaviMenuView ownerAndPayor = $(NaviMenuView.class).first();
 		ownerAndPayor.payorAndOwner().click();
 		ScenarioView changeOwner = $(ScenarioView.class).first();
-		changeOwner.ownerGUID().selectByText("MWYDTJQZAD G EWYZEYCTKV (***-**-8203)");
+		changeOwner.ownerGUID().selectByText("WHUEMUQSRH M ZCOLPRPWRQ (602193791)");
 
 		changeOwner.getSaveButton().click();
 

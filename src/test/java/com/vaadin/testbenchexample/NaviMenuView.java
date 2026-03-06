@@ -175,5 +175,9 @@ public class NaviMenuView extends TestBenchElement {
 
 		return $( TestBenchElement.class ).id( "navi-menu" ).$(IconElement.class).get( 26 );
 	}
+	protected TestBenchElement claimsSPDA1() {
+
+		return $( TestBenchElement.class ).id( "navi-menu" ).$(IconElement.class).get( 23 );
+	}
 
 }

@@ -88,7 +88,7 @@ public class WholeLifeIT extends BaseLoginTest{
         //		EntryDialogContent selectTransaction = $(EntryDialogContent.class).first();
         TransactionPopUpPageView selectTransaction = $(TransactionPopUpPageView.class).first();
         selectTransaction.transactionType().selectByText( "Add Rider" );
-        selectTransaction.effectiveDate().setDate( LocalDate.of( 2026, 2, 25 ) );
+        selectTransaction.effectiveDate().setDate( LocalDate.of( 2026, 3, 25 ) );
         EntryDialogContent addRider = $(EntryDialogContent.class).first();
         addRider.coverageName().selectItemByIndex( 0);
         addRider.addInsured().click();
