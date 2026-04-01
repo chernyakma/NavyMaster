@@ -43,6 +43,25 @@ public class ClaimsIT extends BaseLoginTest{
         createClaim.getContact().selectItemByIndex(0);
         createClaim.saveAndOpenButton().click();
         menu.processClaim().click();
+        waitUntil(driver -> $(EntryDialogContent.class).exists(), 80);
+
+        boolean selected = false;
+
+        for (int i = 0; i < 8; i++) {
+            try {
+                // Re-find dialog fresh every attempt
+                EntryDialogContent dlg = $(EntryDialogContent.class).last();
+                dlg.getEventType1().selectByText("Decision");
+                selected = true;
+                break;
+            } catch (org.openqa.selenium.StaleElementReferenceException e) {
+                if (i == 7) throw e;
+            }
+        }
+
+        if (!selected) {
+            throw new AssertionError("Could not select Event Type = Decision");
+        }
         EntryDialogContent event = $(EntryDialogContent.class).first();
         event.getEventType().selectByText("Decision");
         event.okButton().click();

@@ -246,6 +246,11 @@ public class EntryDialogContent extends TestBenchElement {
 
 		return $( TestBenchElement.class ).id( "S0").$( TestBenchElement.class ).id( "section" ).$( SelectElement.class ).id("DenialReason");
 	}
+	protected SelectElement getEventType1() {
+		return this.$(TestBenchElement.class).id("S0")
+				.$(TestBenchElement.class).id("section")
+				.$(SelectElement.class).id("Type");
+	}
 
 
 
