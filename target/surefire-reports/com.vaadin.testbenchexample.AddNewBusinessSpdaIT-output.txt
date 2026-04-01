@@ -1,83 +1,83 @@
 Download directory already exists: C:\Users\MariiaCherniak\Documents\GitHub\NavyMaster\downloadFiles
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.66 (resolved driver for Chrome 146)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MariiaCherniak\.cache\selenium\chromedriver\win64\146.0.7680.66\chromedriver.exe
-Mar 06, 2026 9:24:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MariiaCherniak\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+Apr 01, 2026 10:07:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 146
-Mar 06, 2026 9:24:54 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.66. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator comparePdfTextIgnoringDates
+Apr 01, 2026 10:07:34 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.165. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator comparePdfTextIgnoringDates
 SEVERE: PDFs do not match. Showing differences:
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 60:
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Adjustment (MVA) calculation is not included in this depicted surrender value
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: This illustration is not valid
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 61:
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: This illustration is not valid
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: without all numbered pages
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 62:
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: without all numbered pages
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2:  of 3Page 1
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 63:
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1:  of 3Page 1
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Prepared on: 
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 64:
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Prepared on: 
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Owner: David Palmer
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 65:
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Owner: David Palmer
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Annuitant(s): David Palmer
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 66:
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Annuitant(s): David Palmer
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Issue Age/Gender: 65/Male Rate Lock Duration: 7
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 67:
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Issue Age/Gender: 65/Male Rate Lock Duration: 7
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Effective Date: 
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 68:
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Effective Date: 
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Issue State: Virginia
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 69:
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Issue State: Virginia
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: A New Business Illustration
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 70:
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: A New Business Illustration
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Single Premium Deferred Annuity
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: Difference found on line 71:
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 1: Single Premium Deferred Annuity
-Mar 06, 2026 9:25:21 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
+Apr 01, 2026 10:08:04 AM com.vaadin.testbenchexample.PdfComparator showTextDifferences
 SEVERE: File 2: Adjustment (MVA) calculation is not included in this depicted surrender value
 Test failed: PDFs do not match!
 Test failed. File not deleted.

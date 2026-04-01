@@ -1,25 +1,26 @@
 -------------------------------------------------------------------------------
 Test set: com.vaadin.testbenchexample.ClaimsIT
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 16.911 s <<< FAILURE! - in com.vaadin.testbenchexample.ClaimsIT
-com.vaadin.testbenchexample.ClaimsIT.deathClaim  Time elapsed: 16.911 s  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 24.215 s <<< FAILURE! - in com.vaadin.testbenchexample.ClaimsIT
+com.vaadin.testbenchexample.ClaimsIT.deathClaim  Time elapsed: 24.208 s  <<< ERROR!
 org.openqa.selenium.NoSuchElementException: 
-No element with tag <claim-page> found using index 0
+No element with tag <*> found with the attributes [id='S0'] using index 0
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.18.0', revision: 'b6bf9de7cc*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: driver.version: unknown
 	at com.vaadin.testbench.ElementQuery.get(ElementQuery.java:324)
 	at com.vaadin.testbench.ElementQuery.first(ElementQuery.java:244)
-	at com.vaadin.testbenchexample.ScenarioView.getAddClaimsButton(ScenarioView.java:205)
-	at com.vaadin.testbenchexample.ScenarioView_$$_jvst91a_9._d34getAddClaimsButton(ScenarioView_$$_jvst91a_9.java)
+	at com.vaadin.testbench.ElementQuery.id(ElementQuery.java:151)
+	at com.vaadin.testbenchexample.EntryDialogContent.getEventType(EntryDialogContent.java:231)
+	at com.vaadin.testbenchexample.EntryDialogContent_$$_jvst98a_d._d68getEventType(EntryDialogContent_$$_jvst98a_d.java)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at com.vaadin.testbench.TestBench$ElementInvocationHandler.invoke(TestBench.java:83)
-	at com.vaadin.testbenchexample.ScenarioView_$$_jvst91a_9.getAddClaimsButton(ScenarioView_$$_jvst91a_9.java)
-	at com.vaadin.testbenchexample.ClaimsIT.deathClaim(ClaimsIT.java:24)
+	at com.vaadin.testbenchexample.EntryDialogContent_$$_jvst98a_d.getEventType(EntryDialogContent_$$_jvst98a_d.java)
+	at com.vaadin.testbenchexample.ClaimsIT.deathClaim(ClaimsIT.java:37)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

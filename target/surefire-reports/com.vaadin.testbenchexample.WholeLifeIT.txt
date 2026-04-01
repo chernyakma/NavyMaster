@@ -1,17 +1,25 @@
 -------------------------------------------------------------------------------
 Test set: com.vaadin.testbenchexample.WholeLifeIT
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 34.705 s <<< FAILURE! - in com.vaadin.testbenchexample.WholeLifeIT
-com.vaadin.testbenchexample.WholeLifeIT.addRider  Time elapsed: 34.703 s  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 20.646 s <<< FAILURE! - in com.vaadin.testbenchexample.WholeLifeIT
+com.vaadin.testbenchexample.WholeLifeIT.addRider  Time elapsed: 20.644 s  <<< ERROR!
 org.openqa.selenium.NoSuchElementException: 
-No element with tag <vaadin-confirm-dialog-overlay> found using index 0
+No element with tag <transactions-view-page> found using index 0
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.18.0', revision: 'b6bf9de7cc*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: driver.version: unknown
 	at com.vaadin.testbench.ElementQuery.get(ElementQuery.java:324)
 	at com.vaadin.testbench.ElementQuery.first(ElementQuery.java:244)
-	at com.vaadin.testbenchexample.WholeLifeIT.addRider(WholeLifeIT.java:104)
+	at com.vaadin.testbenchexample.ScenarioView.addTransactionButton2(ScenarioView.java:141)
+	at com.vaadin.testbenchexample.ScenarioView_$$_jvst98a_9._d3addTransactionButton2(ScenarioView_$$_jvst98a_9.java)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.vaadin.testbench.TestBench$ElementInvocationHandler.invoke(TestBench.java:83)
+	at com.vaadin.testbenchexample.ScenarioView_$$_jvst98a_9.addTransactionButton2(ScenarioView_$$_jvst98a_9.java)
+	at com.vaadin.testbenchexample.WholeLifeIT.addRider(WholeLifeIT.java:87)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
