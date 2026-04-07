@@ -205,6 +205,10 @@ public class EntryDialogContent extends TestBenchElement {
 
 		return $( TestBenchElement.class ).id( "S0").$( TestBenchElement.class ).id( "section" ).$( SelectElement.class ).id( "Type");
 	}
+	protected SelectElement getTIClaimType() {
+
+		return $( TestBenchElement.class ).id( "S2").$( TestBenchElement.class ).id( "section" ).$( SelectElement.class ).id( "Type");
+	}
 	protected DatePickerElement getIncurredDate() {
 
 		return $( TestBenchElement.class ).id( "S2").$( TestBenchElement.class ).id( "section" ).$( DatePickerElement.class ).id( "IncurredDate");
