@@ -143,11 +143,11 @@ public class ClaimsIT extends BaseLoginTest{
         createClaim.saveAndOpenButton().click();
 
         menu2.processTIClaim().click();
-        EntryDialogContent event = $(EntryDialogContent.class).first();
+        EntryDialogContent event = $(EntryDialogContent.class).last();
         event.getEventType().selectByText("Approve");
         event.okButton().click();
         menu2.makeTIPayment().click();
-        EntryDialogContent payment = $(EntryDialogContent.class).first();
+        EntryDialogContent payment = $(EntryDialogContent.class).last();
         //       payment.getPayee().selectItemByIndex(0);
         payment.okButton().click();
         menu2.claimTIPolicy().click();
